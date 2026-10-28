@@ -1,28 +1,31 @@
-![Evolution X](https://github.com/Evolution-X/.github/raw/refs/heads/main/profile/Banner.svg)
+# ExpressiveOS
+
+The sources of ExpressiveOS, built from its own repos. Every project in `default.xml` is pinned to a commit, never to a branch head:
+
+- **ExpressiveOS's own repos** (github.com/ExpressiveOS) are forks of the Evolution X repos it started from. Each is at its `expressiveos` branch: the commit of the ExpressiveOS 1.0 builds (tag `eos-1.0-base`) plus ExpressiveOS's changes as commits.
+- **LineageOS's and AOSP's projects** are at the commits of the 1.0 builds until an update moves them.
+
+The Git LFS files of `vendor_gms` and `vendor_google_cheetah` are in [ExpressiveOS/blobs](https://github.com/ExpressiveOS/blobs).
 
 # Initialize local repository
 ```
-repo init -u https://github.com/Evolution-X/manifest -b cnb --git-lfs
+repo init -u https://github.com/ExpressiveOS/manifest -b expressiveos --git-lfs
 ```
 
 # Sync up
 ```
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -c -j4 --no-clone-bundle --no-tags
 ```
 
 # Build
 
-- Set up the build environment
-```bash
-. build/envsetup.sh
-```
+ExpressiveOS for the Pixel 7 Pro (cheetah) is built with its kit, `expressiveos-cheetah` in [Denson9874-Device-Central](https://github.com/denson9874/Denson9874-Device-Central). The kit's `setup.sh` sets up and syncs the tree, and `tools/eos-images.sh` runs the build.
 
-- Lunch a target
-```bash
-lunch lineage_codename-cp2a-user
-```
+# Changing a project
 
-- To start compiling
-```bash
-m evolution
-```
+1. Commit to the project's `expressiveos` branch in its ExpressiveOS repo. Never rewrite that branch.
+2. Move the project's `revision` in `default.xml` to the new commit, and commit that here.
+
+A project the kit has patches for keeps its full history (no `clone-depth`): the kit finds its changes among its commits.
+
+LineageOS and AOSP updates arrive the same way, as a new commit of this manifest.
