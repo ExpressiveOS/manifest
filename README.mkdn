@@ -6,7 +6,7 @@ The sources of ExpressiveOS, built from its own repos. Every project in `default
 - **LineageOS's and AOSP's projects** are at the commits of the 1.0 builds until an update moves them.
 - **Other phones' device trees**, which ExpressiveOS doesn't fork, have no `upstream`, so an update never moves them:
   - the Pixel 8 Pro's (husky) LineageOS trees (`husky`, `shusky`, `zuma`) and TheMuppets' husky blobs, with ExpressiveOS's changes kept as kit patches;
-  - the Pixel 11 family's trees (kodiak, grizzly, cubs, yogi), at the `expressiveos` branch of `denson9874/device_google_<phone>`.
+  - the Pixel 11 family's trees (kodiak, grizzly, cubs, yogi), at a commit of `denson9874/device_google_<phone>` kept on its own branch, never on `cnb` (Evolution X's); deleting that branch would leave the pin unfetchable.
 
   `shusky-kernels` follows LineageOS like `pantah-kernels`.
 
