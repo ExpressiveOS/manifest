@@ -1309,8 +1309,8 @@
   <project path="device/google/shusky-kernels" name="android_device_google_shusky-kernels" remote="lineageos" revision="cd4a90f656c18677b6171cef35c5b5573ed537ca" upstream="lineage-24.0" />
   <project path="device/google/zuma" name="android_device_google_zuma" remote="lineageos" revision="9eeeb27bf309b1d3bd5e714e1ce9c22d35babfbe" />
   <project path="vendor/google/husky" name="TheMuppets/proprietary_vendor_google_husky" remote="github" revision="f80d252de3e1fccdf2f58bac4e02b4dac8385083" />
-  <project path="device/google/kodiak" name="denson9874/device_google_kodiak" remote="github" revision="e3b77822d52b88634cc8a52cc56ca6790234a45b" />
-  <project path="device/google/grizzly" name="denson9874/device_google_grizzly" remote="github" revision="5cab25e4d626241b0064fd224ca8a3fa4442a321" />
-  <project path="device/google/cubs" name="denson9874/device_google_cubs" remote="github" revision="7e467bc8db60307d59cf62052ecbf1bd3653f251" />
-  <project path="device/google/yogi" name="denson9874/device_google_yogi" remote="github" revision="68d3ac95e45e7c88f66d9bedeb292138d3c92b02" />
+  <project path="device/google/kodiak" name="device_google_kodiak" remote="expressiveos" revision="e3b77822d52b88634cc8a52cc56ca6790234a45b" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project path="device/google/grizzly" name="device_google_grizzly" remote="expressiveos" revision="5cab25e4d626241b0064fd224ca8a3fa4442a321" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project path="device/google/cubs" name="device_google_cubs" remote="expressiveos" revision="7e467bc8db60307d59cf62052ecbf1bd3653f251" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project path="device/google/yogi" name="device_google_yogi" remote="expressiveos" revision="68d3ac95e45e7c88f66d9bedeb292138d3c92b02" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
 </manifest>
