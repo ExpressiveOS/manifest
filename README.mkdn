@@ -3,9 +3,11 @@
 The sources of ExpressiveOS, built from its own repos. Every project in `default.xml` is pinned to a commit, never to a branch head:
 
 - **ExpressiveOS's own repos** (github.com/ExpressiveOS) are forks of the Evolution X repos it started from. Each is at its `expressiveos` branch: the commit of the ExpressiveOS 1.0 builds (tag `eos-1.0-base`) plus ExpressiveOS's changes as commits.
+  The Pixel 11 family's trees (`device_google_kodiak`, `device_google_grizzly`, `device_google_cubs`, `device_google_yogi`) are forks of `denson9874/device_google_<phone>` instead, with no `eos-1.0-base`: their `expressiveos` branch is that tree's `cnb` plus ExpressiveOS's changes.
 - **LineageOS's and AOSP's projects** are at the commits of the 1.0 builds until an update moves them.
+- **The Pixel 8 Pro's (husky) trees**, which ExpressiveOS doesn't fork, have no `upstream`, so an update never moves them: LineageOS's `husky`, `shusky` and `zuma` and TheMuppets' husky blobs, with ExpressiveOS's changes kept as kit patches. `shusky-kernels` follows LineageOS like `pantah-kernels`.
 
-The Git LFS files of `vendor_gms` and `vendor_google_cheetah` are in [ExpressiveOS/blobs](https://github.com/ExpressiveOS/blobs).
+The Git LFS files of `vendor_gms` and `vendor_google_cheetah` are in [ExpressiveOS/blobs](https://github.com/ExpressiveOS/blobs). husky's blobs come from TheMuppets' own LFS server. The Pixel 11s' blobs and stock images aren't in this manifest: the kit sets them up on the build server.
 
 # Initialize local repository
 ```
@@ -19,7 +21,7 @@ repo sync -c -j4 --no-clone-bundle --no-tags
 
 # Build
 
-ExpressiveOS for the Pixel 7 Pro (cheetah) is built with its kit, `expressiveos-cheetah` in [Denson9874-Device-Central](https://github.com/denson9874/Denson9874-Device-Central). The kit's `setup.sh` sets up and syncs the tree, and `tools/eos-images.sh` runs the build.
+ExpressiveOS is built with its kit, `expressiveos-cheetah` in [Denson9874-Device-Central](https://github.com/denson9874/Denson9874-Device-Central). The kit's `setup.sh` sets up and syncs the tree, and `tools/eos-images.sh` runs the build. The kit builds the Pixel 7 Pro (cheetah) by default; `EOS_DEVICE=<phone>` picks husky, kodiak, grizzly, cubs or yogi instead.
 
 # Changing a project
 
