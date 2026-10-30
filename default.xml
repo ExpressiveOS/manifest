@@ -1300,7 +1300,7 @@
   <project name="vendor_packages_SystemUIGoogle" path="vendor/unbundled_google/packages/SystemUIGoogle" remote="expressiveos" revision="222caf0c881aba942d4506dbb2a0e7ffbd4f73ad" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_pixel-style" path="vendor/pixel-style" remote="expressiveos" revision="0022302fe02fbce59f3225a36afd01b840765e9b" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_themes" path="vendor/themes" remote="expressiveos" revision="7d8236cf8495ea673652c5cfa3a3eaf773f39542" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project path="device/google/pantah" name="device_google_pantah" remote="expressiveos" revision="069e6b02b8a202e87e6178137bd3431392173e6f" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project path="device/google/pantah" name="device_google_pantah" remote="expressiveos" revision="ecc7bc2e515bc0a50eafd8f9eda12ebcb742da4e" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project path="device/google/gs201" name="device_google_gs201" remote="expressiveos" revision="84fc1de7dbded4cbaafc018339385f989878a89a" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project path="device/google/pantah-kernels" name="android_device_google_pantah-kernels" remote="lineageos" revision="e0bcfb04231e9c0d3df942604218dfc8dbed2011" upstream="lineage-24.0" />
   <project path="vendor/google/cheetah" name="vendor_google_cheetah" remote="expressiveos" revision="0f439adcbd5ce676b77c21f4dacca7e2e14c8743" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
