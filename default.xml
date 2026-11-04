@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ExpressiveOS's sources: every project at a commit, never a branch head. Projects from
-     github.com/ExpressiveOS are ExpressiveOS's own (forks of Evolution X's repos at the 1.0
-     builds' commits, plus ExpressiveOS's changes as commits on branch expressiveos); the rest
-     are LineageOS's and AOSP's, at the commits of the 1.0 builds until an update moves them.
+     github.com/ExpressiveOS are ExpressiveOS's own repos (each at its 1.0 builds' commit plus
+     ExpressiveOS's changes as commits on branch expressiveos); the rest are LineageOS's and
+     AOSP's, at the commits of the 1.0 builds until an update moves them.
      Change a revision here only to a commit on the branch its upstream names. -->
 <manifest>
   <remote name="aosp" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-17.0.0_r1" />
@@ -272,8 +272,6 @@
   <project name="LineageOS/android_vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" revision="97d88ab231d84ba0b5549e6d6148522d6d73ee24" upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" groups="kaanapali-vendor,qcom" />
   <project name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" path="vendor/qcom/opensource/commonsys/wfd" revision="b54a2fce355046c790949e9ec3445a7065dc5665" upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" groups="kaanapali-video,qcom" />
   <project name="LineageOS/scripts" path="lineage/scripts" revision="abe932a7a4848f2783d9385d816fc14221287944" upstream="main" dest-branch="main" groups="tools" />
-  <project name="OTA" path="evolution/OTA" remote="expressiveos" revision="57615f73be1d25404467ecaa80e019875d082958" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project name="OTA" path="evolution/OTA-VANILLA" remote="expressiveos" revision="72c970945d8eeae3491fa62d2d0ae7e1b95c8ae8" upstream="refs/heads/expressiveos-vanilla" dest-branch="refs/heads/expressiveos-vanilla" />
   <project name="packages_apps_BtHelper" path="packages/apps/BtHelper" remote="expressiveos" revision="fbcd1f249ce4c04b5631c0aa90a05e6e8ab43928" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="art" remote="expressiveos" revision="2ae0ac223eccfbdebc5ec5a4bb2795d58c13326d" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
   <project name="bionic" remote="expressiveos" revision="6ec7500214a43eef1e813e188aa8da42e1c6aeb5" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
@@ -343,7 +341,6 @@
   <project name="kernel/tests" remote="aosp" revision="bbc501af326dc8351cd6a6fa9efadcbce649d46f" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk,vts" />
   <project name="kernel_configs" path="kernel/configs" remote="expressiveos" revision="23c046e2d6d78d20bb4195d8fa73218018e2b7c0" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk,vts" />
   <project name="lineage-sdk" remote="expressiveos" revision="f480d2995e06e83735a14eb1aa3e3606d8e15c83" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project name="manifest" path="evolution/manifest" remote="expressiveos" revision="f19694e463c30744ef971ac21615e0eb63ac5800" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_AppLocker" path="packages/apps/AppLocker" remote="expressiveos" revision="065f2f5553bcf297fe503b28ef15433447df92a5" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_ColumbusService" path="packages/apps/ColumbusService" remote="expressiveos" revision="b8167ad9c86adebdf54fe3bba0e03f37ee112ed6" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_EvoEgg" path="packages/apps/EvoEgg" remote="expressiveos" revision="6f274170583e778d43e41955aa46b5c969c2fa35" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
