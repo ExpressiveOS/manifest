@@ -344,7 +344,7 @@
   <project name="packages_apps_AppLocker" path="packages/apps/AppLocker" remote="expressiveos" revision="065f2f5553bcf297fe503b28ef15433447df92a5" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_ColumbusService" path="packages/apps/ColumbusService" remote="expressiveos" revision="b8167ad9c86adebdf54fe3bba0e03f37ee112ed6" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_EvoEgg" path="packages/apps/EvoEgg" remote="expressiveos" revision="0a053ce5c3fd8085b97c95650d72c53aa5952308" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project name="packages_apps_Evolver" path="packages/apps/Evolver" remote="expressiveos" revision="55b6876ba0530e2f22d411368e3a931c9797c3f9" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project name="packages_apps_Evolver" path="packages/apps/Evolver" remote="expressiveos" revision="b3c6fec6053041a003b9a18c8ed3a1923e5205f1" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_FaceUnlock" path="packages/apps/FaceUnlock" remote="expressiveos" revision="817e02a974215b100915814267fabbfdb5961f88" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_GameSpace" path="packages/apps/GameSpace" remote="expressiveos" revision="f046de4d28415ce074f85758c44d74764cd9a9e6" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_LMOFreeform" path="packages/apps/LMOFreeform" remote="expressiveos" revision="f2e3571271bf077bbfb7e7a5b402500838f56725" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
@@ -1290,7 +1290,7 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
   <project name="vendor_evolution" path="vendor/lineage" remote="expressiveos" revision="77adfd88f6b4e09509d3c5c74df3bf02657e01d6" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project name="vendor_extras" path="vendor/extras" remote="expressiveos" revision="6eb5704f349fac31a2c9131a7a144d87263c4a3e" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project name="vendor_extras" path="vendor/extras" remote="expressiveos" revision="b3ba9e792c344f5fd9eef4db84495a444c8ff3fa" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_gms" path="vendor/gms" remote="expressiveos" revision="3a7005980c24694d10b074a1ac6db0f1ef6eb5c4" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" clone-depth="1" />
   <project name="vendor_gms-mosey" path="vendor/gms-mosey" remote="expressiveos" revision="931dc880a8f4c76b6a55a37cf53b7fd449094e24" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_packages_SettingsGoogle" path="vendor/unbundled_google/packages/SettingsGoogle" remote="expressiveos" revision="611435d29d1c4f5e8a62f4a0cb1f9fd3ac3f8a11" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
