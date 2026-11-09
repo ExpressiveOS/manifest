@@ -307,7 +307,7 @@
   <project name="external_piex" path="external/piex" remote="expressiveos" revision="f036cb56369c876cd9b03b5acfa60d2511837b17" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
   <project name="external_steam-audio" path="external/steam-audio" remote="expressiveos" revision="1540a227e3d34d84734e3aebddb655753170778c" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="frameworks_av" path="frameworks/av" remote="expressiveos" revision="798023d417a8edf9fd37653194872d4fcaf6af24" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk,sysui-studio" />
-  <project name="frameworks_base" path="frameworks/base" remote="expressiveos" revision="44000852d02060dd8c8624ab5f3b85b1337498a1" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <project name="frameworks_base" path="frameworks/base" remote="expressiveos" revision="8d9e4bd8b9b20c66f69bebe41709c97368a0c273" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <project name="frameworks_libs_systemui" path="frameworks/libs/systemui" remote="expressiveos" revision="a545beb37be87a7feccbbcc76bd894d5cff3d289" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <project name="frameworks_native" path="frameworks/native" remote="expressiveos" revision="5b6c4d5bcd5dcea470bedb8047887b46b2a54e9b" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
   <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="expressiveos" revision="240b2b56792357bb92153c842949e1e0433c41f8" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk,sysui-studio" />
@@ -1289,7 +1289,7 @@
   <project name="trusty/vendor/google/aosp" remote="aosp" revision="93e3ca36bc59e5d357b226e4e5254f8e478213f2" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk,trusty">
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
-  <project name="vendor_evolution" path="vendor/lineage" remote="expressiveos" revision="2c94a7a8b596e0079087d8420ead3f98fe51176d" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project name="vendor_evolution" path="vendor/lineage" remote="expressiveos" revision="ab617078b646489c4ca0d69b32993c427bfbe541" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_extras" path="vendor/extras" remote="expressiveos" revision="b3ba9e792c344f5fd9eef4db84495a444c8ff3fa" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_gms" path="vendor/gms" remote="expressiveos" revision="ec4f20f2f4e9eece54536bc3351a70b0c790e89e" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" clone-depth="1" />
   <project name="vendor_gms-mosey" path="vendor/gms-mosey" remote="expressiveos" revision="931dc880a8f4c76b6a55a37cf53b7fd449094e24" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
