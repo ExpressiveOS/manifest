@@ -351,7 +351,7 @@
   <project name="packages_apps_LineageParts" path="packages/apps/LineageParts" remote="expressiveos" revision="5d3089d20591c64d7ed1c7dfa4ed93e336219bca" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="expressiveos" revision="15432cf870458b15259312b6e4c27c3e194a9939" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_Sandbox" path="packages/apps/Sandbox" remote="expressiveos" revision="6783180450e17a714b4240897f9346c20e47e825" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="expressiveos" revision="6924a5e8583e0d110728cd7c657fe0b5c8e68183" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk-cw-tvc,pdk-fs,sysui-studio" />
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="expressiveos" revision="c6e57a58736ae55a316c21773939ec99ba921ab4" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk-cw-tvc,pdk-fs,sysui-studio" />
   <project name="packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="expressiveos" revision="09b14d2e89cacf50162b2ff3c0497f5637376065" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_Stk" path="packages/apps/Stk" remote="expressiveos" revision="0c7c29561ad125d6553b19f05029a429fac4eaff" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="apps_stk,pdk-fs" />
   <project name="packages_apps_SystemUIClocks" path="packages/apps/SystemUIClocks" remote="expressiveos" revision="07e660769ff8056edaa205e9f8aeeab21ac79a31" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
@@ -1289,7 +1289,7 @@
   <project name="trusty/vendor/google/aosp" remote="aosp" revision="93e3ca36bc59e5d357b226e4e5254f8e478213f2" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk,trusty">
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
-  <project name="vendor_evolution" path="vendor/lineage" remote="expressiveos" revision="ab617078b646489c4ca0d69b32993c427bfbe541" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project name="vendor_evolution" path="vendor/lineage" remote="expressiveos" revision="1168af3b3bd04bf47cde548a4a7adc145750b748" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_extras" path="vendor/extras" remote="expressiveos" revision="b3ba9e792c344f5fd9eef4db84495a444c8ff3fa" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_gms" path="vendor/gms" remote="expressiveos" revision="ec4f20f2f4e9eece54536bc3351a70b0c790e89e" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" clone-depth="1" />
   <project name="vendor_gms-mosey" path="vendor/gms-mosey" remote="expressiveos" revision="931dc880a8f4c76b6a55a37cf53b7fd449094e24" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
