@@ -276,7 +276,7 @@
   <project name="art" remote="expressiveos" revision="2ae0ac223eccfbdebc5ec5a4bb2795d58c13326d" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
   <project name="bionic" remote="expressiveos" revision="7e0d293587012ed648988714e78e7887439e3e49" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
   <project name="bootable_recovery" path="bootable/recovery" remote="expressiveos" revision="489ceb56b55b90e017d051d2ffa5238586aaaeb8" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
-  <project name="build" path="build/make" remote="expressiveos" revision="b30ec090628d966d379e39280464990a3b38ce45" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk,sysui-studio">
+  <project name="build" path="build/make" remote="expressiveos" revision="c60bdedfc59a8efe38977665d2989ccc028e168f" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk,sysui-studio">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -356,7 +356,7 @@
   <project name="packages_apps_Stk" path="packages/apps/Stk" remote="expressiveos" revision="0c7c29561ad125d6553b19f05029a429fac4eaff" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="apps_stk,pdk-fs" />
   <project name="packages_apps_SystemUIClocks" path="packages/apps/SystemUIClocks" remote="expressiveos" revision="07e660769ff8056edaa205e9f8aeeab21ac79a31" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_ThemeStore" path="packages/apps/ThemeStore" remote="expressiveos" revision="36bbf4b4e0c796450ffa344debaea9bc38db8808" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project name="packages_apps_Updater" path="packages/apps/Updater" remote="expressiveos" revision="34239bea6573712727fb1934d197507b40d2764c" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project name="packages_apps_Updater" path="packages/apps/Updater" remote="expressiveos" revision="8a253c16199157261e885c209e7bde8d3254179d" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="expressiveos" revision="9d1485342c7edf428e0b4089f2a73724a1ad6c81" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk-fs,sysui-studio" />
   <project name="packages_modules_Bluetooth" path="packages/modules/Bluetooth" remote="expressiveos" revision="8bfdbd5338e94a03b25dfce7b96922ebdcc084aa" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
   <project name="packages_modules_Connectivity" path="packages/modules/Connectivity" remote="expressiveos" revision="c1b50222f2947b912adff22cea13b1176325da53" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk-cw-fs,pdk-fs" />
