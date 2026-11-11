@@ -340,7 +340,7 @@
   <project name="kernel/prebuilts/mainline/x86-64" path="kernel/prebuilts/mainline/x86_64" remote="aosp" revision="51a4241eb8c63ce034bfcd798d8dff8eaa8325d0" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" clone-depth="1" />
   <project name="kernel/tests" remote="aosp" revision="bbc501af326dc8351cd6a6fa9efadcbce649d46f" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk,vts" />
   <project name="kernel_configs" path="kernel/configs" remote="expressiveos" revision="23c046e2d6d78d20bb4195d8fa73218018e2b7c0" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk,vts" />
-  <project name="lineage-sdk" remote="expressiveos" revision="65b7e420a878e28a2569e8b8b5c3de37c9ab8723" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project name="lineage-sdk" remote="expressiveos" revision="3315e87351376da88f73eeb7e282247bdcf301bc" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_AppLocker" path="packages/apps/AppLocker" remote="expressiveos" revision="065f2f5553bcf297fe503b28ef15433447df92a5" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_ColumbusService" path="packages/apps/ColumbusService" remote="expressiveos" revision="b8167ad9c86adebdf54fe3bba0e03f37ee112ed6" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_EvoEgg" path="packages/apps/EvoEgg" remote="expressiveos" revision="0a053ce5c3fd8085b97c95650d72c53aa5952308" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
