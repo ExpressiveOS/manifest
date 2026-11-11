@@ -340,7 +340,7 @@
   <project name="kernel/prebuilts/mainline/x86-64" path="kernel/prebuilts/mainline/x86_64" remote="aosp" revision="51a4241eb8c63ce034bfcd798d8dff8eaa8325d0" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" clone-depth="1" />
   <project name="kernel/tests" remote="aosp" revision="bbc501af326dc8351cd6a6fa9efadcbce649d46f" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk,vts" />
   <project name="kernel_configs" path="kernel/configs" remote="expressiveos" revision="23c046e2d6d78d20bb4195d8fa73218018e2b7c0" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk,vts" />
-  <project name="lineage-sdk" remote="expressiveos" revision="65b7e420a878e28a2569e8b8b5c3de37c9ab8723" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project name="lineage-sdk" remote="expressiveos" revision="3315e87351376da88f73eeb7e282247bdcf301bc" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_AppLocker" path="packages/apps/AppLocker" remote="expressiveos" revision="065f2f5553bcf297fe503b28ef15433447df92a5" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_ColumbusService" path="packages/apps/ColumbusService" remote="expressiveos" revision="b8167ad9c86adebdf54fe3bba0e03f37ee112ed6" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_EvoEgg" path="packages/apps/EvoEgg" remote="expressiveos" revision="0a053ce5c3fd8085b97c95650d72c53aa5952308" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
@@ -1294,7 +1294,7 @@
   <project name="vendor_gms" path="vendor/gms" remote="expressiveos" revision="a7b98fb3d6b0064b27174ed68a9b1b56a6ac4015" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" clone-depth="1" />
   <project name="vendor_gms-mosey" path="vendor/gms-mosey" remote="expressiveos" revision="931dc880a8f4c76b6a55a37cf53b7fd449094e24" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_packages_SettingsGoogle" path="vendor/unbundled_google/packages/SettingsGoogle" remote="expressiveos" revision="611435d29d1c4f5e8a62f4a0cb1f9fd3ac3f8a11" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project name="vendor_packages_SystemUIGoogle" path="vendor/unbundled_google/packages/SystemUIGoogle" remote="expressiveos" revision="8c53e7d24c3ac045031bfc59cbc5203c3f5f18af" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project name="vendor_packages_SystemUIGoogle" path="vendor/unbundled_google/packages/SystemUIGoogle" remote="expressiveos" revision="d54c37af31bd941b033911d6812fed967c944e72" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_pixel-style" path="vendor/pixel-style" remote="expressiveos" revision="0022302fe02fbce59f3225a36afd01b840765e9b" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_themes" path="vendor/themes" remote="expressiveos" revision="8bde24c6b6194156d4ef808046ed76b9a864b271" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project path="device/google/pantah" name="device_google_pantah" remote="expressiveos" revision="14d707f107f96b34b83ff14a27835b6a57ca3800" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
