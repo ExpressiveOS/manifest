@@ -300,7 +300,7 @@
   <project name="device/google/sdv_display_safety" remote="aosp" revision="0971a46741bd2931c8c506e0afe950348af7c1d4" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk,swcar" clone-depth="1" />
   <project name="device/google/trout" remote="aosp" revision="26ebd2c5706f28ec3a925b3b7f133a7b575abded" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="device,pdk" clone-depth="1" />
   <project name="device/sample" remote="aosp" revision="035858697891c2e1079255ef33656663618037a1" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
-  <project name="device_evolution_sepolicy" path="device/lineage/sepolicy" remote="expressiveos" revision="6bff0db16d8dbbe9be4bc93a28f020d4aae1f47c" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project name="device_evolution_sepolicy" path="device/lineage/sepolicy" remote="expressiveos" revision="e58a91577400a809e9322bbe045d0625bc297717" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="external_FadingEdgeLayout" path="external/FadingEdgeLayout" remote="expressiveos" revision="0165827a1c0c7076faa236fb01dcd5f877595ecf" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="external_bouncycastle" path="external/bouncycastle" remote="expressiveos" revision="56e5dac751581c7bd6dbe363d7ba3f8e8862c5bf" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="external_pffft" path="external/pffft" remote="expressiveos" revision="8af7b29aa6cab91efcbd6d4bc417e82964747a68" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
@@ -356,7 +356,7 @@
   <project name="packages_apps_Stk" path="packages/apps/Stk" remote="expressiveos" revision="0c7c29561ad125d6553b19f05029a429fac4eaff" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="apps_stk,pdk-fs" />
   <project name="packages_apps_SystemUIClocks" path="packages/apps/SystemUIClocks" remote="expressiveos" revision="07e660769ff8056edaa205e9f8aeeab21ac79a31" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_ThemeStore" path="packages/apps/ThemeStore" remote="expressiveos" revision="36bbf4b4e0c796450ffa344debaea9bc38db8808" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project name="packages_apps_Updater" path="packages/apps/Updater" remote="expressiveos" revision="2a2c54b83f0e7314b6cd255ba8f9ed3278c48bd4" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project name="packages_apps_Updater" path="packages/apps/Updater" remote="expressiveos" revision="b8d616eef85803087ee56e0465aba3303d43dc40" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="expressiveos" revision="9d1485342c7edf428e0b4089f2a73724a1ad6c81" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk-fs,sysui-studio" />
   <project name="packages_modules_Bluetooth" path="packages/modules/Bluetooth" remote="expressiveos" revision="8bfdbd5338e94a03b25dfce7b96922ebdcc084aa" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
   <project name="packages_modules_Connectivity" path="packages/modules/Connectivity" remote="expressiveos" revision="c1b50222f2947b912adff22cea13b1176325da53" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk-cw-fs,pdk-fs" />
@@ -1289,7 +1289,7 @@
   <project name="trusty/vendor/google/aosp" remote="aosp" revision="93e3ca36bc59e5d357b226e4e5254f8e478213f2" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk,trusty">
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
-  <project name="vendor_evolution" path="vendor/lineage" remote="expressiveos" revision="511539eaa8c7bd0477c4960e5104bcb2524b47a7" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project name="vendor_evolution" path="vendor/lineage" remote="expressiveos" revision="e9b58e0e8da43658517189d8447a576beceef688" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_extras" path="vendor/extras" remote="expressiveos" revision="9bd8fbeb1a0550eccc267034176c2b7849774b24" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_gms" path="vendor/gms" remote="expressiveos" revision="a7b98fb3d6b0064b27174ed68a9b1b56a6ac4015" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" clone-depth="1" />
   <project name="vendor_gms-mosey" path="vendor/gms-mosey" remote="expressiveos" revision="931dc880a8f4c76b6a55a37cf53b7fd449094e24" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
@@ -1297,7 +1297,7 @@
   <project name="vendor_packages_SystemUIGoogle" path="vendor/unbundled_google/packages/SystemUIGoogle" remote="expressiveos" revision="924838fb33fc388f55c7a8b020d7b1e18c36baa5" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_pixel-style" path="vendor/pixel-style" remote="expressiveos" revision="0022302fe02fbce59f3225a36afd01b840765e9b" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_themes" path="vendor/themes" remote="expressiveos" revision="8bde24c6b6194156d4ef808046ed76b9a864b271" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project path="device/google/pantah" name="device_google_pantah" remote="expressiveos" revision="14d707f107f96b34b83ff14a27835b6a57ca3800" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project path="device/google/pantah" name="device_google_pantah" remote="expressiveos" revision="92e9d16f3b9898315b7c56774767385145629c70" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project path="device/google/gs201" name="device_google_gs201" remote="expressiveos" revision="781de88605d4b3ad51100d4183f70a2a08775805" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project path="device/google/pantah-kernels" name="android_device_google_pantah-kernels" remote="lineageos" revision="e0bcfb04231e9c0d3df942604218dfc8dbed2011" upstream="lineage-24.0" />
   <project path="vendor/google/cheetah" name="vendor_google_cheetah" remote="expressiveos" revision="0f439adcbd5ce676b77c21f4dacca7e2e14c8743" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
