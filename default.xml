@@ -1306,8 +1306,8 @@
   <project path="device/google/shusky-kernels" name="android_device_google_shusky-kernels" remote="lineageos" revision="cd4a90f656c18677b6171cef35c5b5573ed537ca" upstream="lineage-24.0" />
   <project path="device/google/zuma" name="android_device_google_zuma" remote="lineageos" revision="9eeeb27bf309b1d3bd5e714e1ce9c22d35babfbe" />
   <project path="vendor/google/husky" name="TheMuppets/proprietary_vendor_google_husky" remote="github" revision="f80d252de3e1fccdf2f58bac4e02b4dac8385083" />
-  <project path="device/google/kodiak" name="device_google_kodiak" remote="expressiveos" revision="ea673223af798799d03b3ffa80128a380ee01014" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project path="device/google/grizzly" name="device_google_grizzly" remote="expressiveos" revision="a82914a38622174ddedb2ad937a7d0899e26ecfa" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project path="device/google/cubs" name="device_google_cubs" remote="expressiveos" revision="3e4c8880a06e9f72b8c01d7bb82b0f5180ee05d7" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project path="device/google/yogi" name="device_google_yogi" remote="expressiveos" revision="adb120167a4cd97409debd009aeaccf02c4d05aa" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project path="device/google/kodiak" name="device_google_kodiak" remote="expressiveos" revision="b1ce6a416a7a611fa4eeffb985f6dde0b582b297" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project path="device/google/grizzly" name="device_google_grizzly" remote="expressiveos" revision="55f74a9233d8a35b0d950263d4fd46b65f1dd291" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project path="device/google/cubs" name="device_google_cubs" remote="expressiveos" revision="2510c1ebbdb875b91fe2853958bf6add6734ef71" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project path="device/google/yogi" name="device_google_yogi" remote="expressiveos" revision="447c6ec6c480478dd62df222c20614e60c0cacbb" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
 </manifest>
