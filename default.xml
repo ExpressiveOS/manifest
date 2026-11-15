@@ -1289,7 +1289,7 @@
   <project name="trusty/vendor/google/aosp" remote="aosp" revision="93e3ca36bc59e5d357b226e4e5254f8e478213f2" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk,trusty">
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
-  <project name="vendor_evolution" path="vendor/lineage" remote="expressiveos" revision="e9b58e0e8da43658517189d8447a576beceef688" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project name="vendor_evolution" path="vendor/lineage" remote="expressiveos" revision="d79232cef181b1df3aca1a602c22c438cbb5c445" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_extras" path="vendor/extras" remote="expressiveos" revision="9bd8fbeb1a0550eccc267034176c2b7849774b24" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_gms" path="vendor/gms" remote="expressiveos" revision="a7b98fb3d6b0064b27174ed68a9b1b56a6ac4015" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" clone-depth="1" />
   <project name="vendor_gms-mosey" path="vendor/gms-mosey" remote="expressiveos" revision="931dc880a8f4c76b6a55a37cf53b7fd449094e24" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
