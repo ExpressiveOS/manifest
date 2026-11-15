@@ -1297,7 +1297,7 @@
   <project name="vendor_packages_SystemUIGoogle" path="vendor/unbundled_google/packages/SystemUIGoogle" remote="expressiveos" revision="cf03e498b006fa5b0d866cee4c76b2736e0a2fcd" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_pixel-style" path="vendor/pixel-style" remote="expressiveos" revision="0022302fe02fbce59f3225a36afd01b840765e9b" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_themes" path="vendor/themes" remote="expressiveos" revision="8bde24c6b6194156d4ef808046ed76b9a864b271" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project path="device/google/pantah" name="device_google_pantah" remote="expressiveos" revision="92e9d16f3b9898315b7c56774767385145629c70" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project path="device/google/pantah" name="device_google_pantah" remote="expressiveos" revision="bfd49f5daf6a4bd87d7cd246a5b6d4e948d50bb6" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project path="device/google/gs201" name="device_google_gs201" remote="expressiveos" revision="781de88605d4b3ad51100d4183f70a2a08775805" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project path="device/google/pantah-kernels" name="android_device_google_pantah-kernels" remote="lineageos" revision="e0bcfb04231e9c0d3df942604218dfc8dbed2011" upstream="lineage-24.0" />
   <project path="vendor/google/cheetah" name="vendor_google_cheetah" remote="expressiveos" revision="0f439adcbd5ce676b77c21f4dacca7e2e14c8743" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
@@ -1306,8 +1306,8 @@
   <project path="device/google/shusky-kernels" name="android_device_google_shusky-kernels" remote="lineageos" revision="cd4a90f656c18677b6171cef35c5b5573ed537ca" upstream="lineage-24.0" />
   <project path="device/google/zuma" name="android_device_google_zuma" remote="lineageos" revision="9eeeb27bf309b1d3bd5e714e1ce9c22d35babfbe" />
   <project path="vendor/google/husky" name="TheMuppets/proprietary_vendor_google_husky" remote="github" revision="f80d252de3e1fccdf2f58bac4e02b4dac8385083" />
-  <project path="device/google/kodiak" name="device_google_kodiak" remote="expressiveos" revision="e3443e90a5c8ec255cb03f84fd8eba69f9aadd49" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project path="device/google/grizzly" name="device_google_grizzly" remote="expressiveos" revision="f31436ce9e9d04ffe69e1ee313f8a22a2f8799df" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project path="device/google/cubs" name="device_google_cubs" remote="expressiveos" revision="2b712d52400cd57523ba26debd01012dd26cf9b6" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project path="device/google/yogi" name="device_google_yogi" remote="expressiveos" revision="454b1620dd3d50b1a3bfe399b8bb712fc64f8d70" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project path="device/google/kodiak" name="device_google_kodiak" remote="expressiveos" revision="ff60275a1866613c47bdf4a217a6a0e5c8ef3807" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project path="device/google/grizzly" name="device_google_grizzly" remote="expressiveos" revision="5520ec23925c48cf9f95be06941de198e5bef31a" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project path="device/google/cubs" name="device_google_cubs" remote="expressiveos" revision="9291d969478c9455dd54574f298e29b0938e1be5" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project path="device/google/yogi" name="device_google_yogi" remote="expressiveos" revision="3d515e4e98217d5378baa7ddde63a737b5301daa" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
 </manifest>
