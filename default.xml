@@ -3,7 +3,7 @@
   <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/" />
   <remote name="expressiveos" fetch="https://github.com/ExpressiveOS" revision="expressiveos-2.0" />
   <default revision="refs/tags/android-17.0.0_r1" remote="aosp" sync-j="4" />
-  <project path="build/make" name="build" remote="expressiveos" revision="2cfe38800702bef3228192160a76faaa9a7885c9" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk,sysui-studio">
+  <project path="build/make" name="build" remote="expressiveos" revision="28d8b1cf95d60b9db00c162b6c98f1108c358521" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk,sysui-studio">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
