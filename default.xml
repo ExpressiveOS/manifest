@@ -21,7 +21,7 @@
   <project path="art" name="art" remote="expressiveos" revision="ba06313fed3354ebe3b197bec0212a36a00e88c7" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk" />
   <project path="bionic" name="bionic" remote="expressiveos" revision="1e8db32f6fd0e23fa2a1759d2768982c53036d00" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk" />
   <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" remote="aosp" revision="d9145a6f8e393e5925d43c402da98da5dd6dff76" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk-cw,pdk-arsp-ag-sot,pdk-arsp-common" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="expressiveos" revision="8a70668f310687395dcc5e88639986351613cd24" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="expressiveos" revision="aeab19018712799c28cac9cfbfd69487b7c676e4" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" remote="aosp" revision="b8c945e55a2e47eaa698f5f916c004bd83bcb811" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="vts,pdk" />
   <project path="cts" name="platform/cts" remote="aosp" revision="3d1bf2a7eb2b7aaa4636c854ef481f256c40c2dd" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" remote="aosp" revision="5013071e756f89aa2cea97b437af12aacb8d4485" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk-cw-fs,pdk-fs" />
