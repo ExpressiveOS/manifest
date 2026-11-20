@@ -1117,7 +1117,7 @@
   <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="expressiveos" revision="0165827a1c0c7076faa236fb01dcd5f877595ecf" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="external/json-c" name="external_json-c" remote="expressiveos" revision="53b84fa96d174d7debafa3ac560dc36271872637" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="external/steam-audio" name="external_steam-audio" remote="expressiveos" revision="1540a227e3d34d84734e3aebddb655753170778c" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
-  <project path="hardware/expressiveos/interfaces" name="hardware_expressiveos_interfaces" remote="expressiveos" revision="f5e166db34d1bc961527e9423f70db3d27ca890b" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
+  <project path="hardware/expressiveos/interfaces" name="hardware_expressiveos_interfaces" remote="expressiveos" revision="fef1d2a12d4cb859e40157b8e3f3157ee74efb81" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="expressiveos" revision="b49628e72a9d64ea563648490ae6f07bac3cf764" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="expressiveos" revision="a3b68234b839accaffba6815bf3405aba039d44b" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="packages/apps/AppLocker" name="packages_apps_AppLocker" remote="expressiveos" revision="065f2f5553bcf297fe503b28ef15433447df92a5" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
