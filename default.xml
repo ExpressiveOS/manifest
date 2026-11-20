@@ -1102,14 +1102,14 @@
   <project path="trusty/vendor/google/aosp" name="trusty/vendor/google/aosp" remote="aosp" revision="93e3ca36bc59e5d357b226e4e5254f8e478213f2" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="trusty,pdk">
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
-  <project path="device/google/cubs" name="device_google_cubs" remote="expressiveos" revision="3e35d2539168cd8ab853a6fe35750611e4d37d99" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
-  <project path="device/google/grizzly" name="device_google_grizzly" remote="expressiveos" revision="fc70e7c227d59e87d9f11f7e5d88e892c689fc10" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
+  <project path="device/google/cubs" name="device_google_cubs" remote="expressiveos" revision="96864e0b998917b2d4e0e8eb7ccb50efefaed921" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
+  <project path="device/google/grizzly" name="device_google_grizzly" remote="expressiveos" revision="7d20ff4a43e3fccc6d865540ffd683b2bceed248" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="device/google/gs201" name="device_google_gs201" remote="expressiveos" revision="3d90361690a96a272f83075b9a50b59dd7f4873e" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="device/google/husky" name="device_google_husky" remote="expressiveos" revision="828b7b515f51e1a1129ca1b853b8417155076eba" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
-  <project path="device/google/kodiak" name="device_google_kodiak" remote="expressiveos" revision="3e6f069dac0b633c050175fc7d5de6cc2f12561c" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
+  <project path="device/google/kodiak" name="device_google_kodiak" remote="expressiveos" revision="e6ac735951c3b8321eff6ff4aec6e8fc46523cac" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="device/google/pantah" name="device_google_pantah" remote="expressiveos" revision="5f8020cd6ce69b106d4266543f551129cef701f9" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="device/google/shusky" name="device_google_shusky" remote="expressiveos" revision="28966ea515ee6a70c095c34ec15ef2c2b19091d6" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
-  <project path="device/google/yogi" name="device_google_yogi" remote="expressiveos" revision="57fdb88c51280c76845d6db3652c369b17396257" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
+  <project path="device/google/yogi" name="device_google_yogi" remote="expressiveos" revision="2a018eb459d6d4c43089e46b9b793038e1e27aef" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="device/google/zuma" name="device_google_zuma" remote="expressiveos" revision="1a30679adcce2f5d392ad2ba663d1613853b73a2" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="expressiveos" revision="0165827a1c0c7076faa236fb01dcd5f877595ecf" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="external/json-c" name="external_json-c" remote="expressiveos" revision="53b84fa96d174d7debafa3ac560dc36271872637" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
