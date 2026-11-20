@@ -1107,7 +1107,7 @@
   <project path="device/google/gs201" name="device_google_gs201" remote="expressiveos" revision="91b30803db326afdc0dfc26626ca66187f6ff7dd" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="device/google/husky" name="device_google_husky" remote="expressiveos" revision="828b7b515f51e1a1129ca1b853b8417155076eba" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="device/google/kodiak" name="device_google_kodiak" remote="expressiveos" revision="e6ac735951c3b8321eff6ff4aec6e8fc46523cac" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
-  <project path="device/google/pantah" name="device_google_pantah" remote="expressiveos" revision="5f8020cd6ce69b106d4266543f551129cef701f9" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
+  <project path="device/google/pantah" name="device_google_pantah" remote="expressiveos" revision="b5e3994fc9b57b97f4204ee0e9578d95d34edef8" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="device/google/shusky" name="device_google_shusky" remote="expressiveos" revision="28966ea515ee6a70c095c34ec15ef2c2b19091d6" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="device/google/yogi" name="device_google_yogi" remote="expressiveos" revision="2a018eb459d6d4c43089e46b9b793038e1e27aef" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="device/google/zuma" name="device_google_zuma" remote="expressiveos" revision="1a30679adcce2f5d392ad2ba663d1613853b73a2" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
@@ -1136,7 +1136,7 @@
   <project path="vendor/extras" name="vendor_extras" remote="expressiveos" revision="2f856885ecc0cd201d6845deba62abf34c09c28f" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="vendor/gms" name="vendor_gms" remote="expressiveos" revision="8bb1d94a303415989cf4bf128edcfce32aeb795d" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" clone-depth="1" />
   <project path="vendor/gms-mosey" name="vendor_gms-mosey" remote="expressiveos" revision="931dc880a8f4c76b6a55a37cf53b7fd449094e24" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
-  <project path="vendor/google/cheetah" name="vendor_google_cheetah" remote="expressiveos" revision="522f082b918726d8d0f263e2e8990b0e88e1178b" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" clone-depth="1" />
+  <project path="vendor/google/cheetah" name="vendor_google_cheetah" remote="expressiveos" revision="522f082b918726d8d0f263e2e8990b0e88e1178b" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="vendor/pixel-style" name="vendor_pixel-style" remote="expressiveos" revision="0022302fe02fbce59f3225a36afd01b840765e9b" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="vendor/themes" name="vendor_themes" remote="expressiveos" revision="8bde24c6b6194156d4ef808046ed76b9a864b271" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="vendor/unbundled_google/packages/SettingsGoogle" name="vendor_packages_SettingsGoogle" remote="expressiveos" revision="dea08ba49c18d217f63b5e2faa150c2632c18437" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
