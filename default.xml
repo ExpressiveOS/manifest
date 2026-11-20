@@ -14,7 +14,7 @@
   <project path="build/blueprint" name="platform/build/blueprint" remote="aosp" revision="7f2058de8155b05ea3c3f8317d33bfe732cacf8b" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk,tradefed" />
   <project path="build/pesto" name="platform/build/pesto" remote="aosp" revision="d853447257086aec2c8ade7056ec69e4ac706e14" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project path="build/release" name="platform/build/release" remote="aosp" revision="c85f4aebe46714235599a9bd6430a0fe30c6e8d5" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk,tradefed,sysui-studio" />
-  <project path="build/soong" name="build_soong" remote="expressiveos" revision="17efdc83e3f782936fdb7a6344a5b17fc9c2f667" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk,tradefed,sysui-studio">
+  <project path="build/soong" name="build_soong" remote="expressiveos" revision="f6fa6db7c91d7a5655284e037f30aa31924e8d3a" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk,tradefed,sysui-studio">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -1132,7 +1132,7 @@
   <project path="packages/resources/apps" name="packages_resources_apps" remote="expressiveos" revision="d8d8abd20e5ca1e4bdd21bbe0f1c47f05c7d5630" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="packages/services/AxQuickLook" name="packages_services_AxQuickLook" remote="expressiveos" revision="8499db252757d86d348a406eaae1f325ba4926f0" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="expressiveos" revision="e78d066a9b5f21a52f7ee0430b26b29a85423c9e" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
-  <project path="vendor/expressiveos" name="vendor_expressiveos" remote="expressiveos" revision="6611e59c8899de87bf78fac065a23fe52e68617b" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
+  <project path="vendor/expressiveos" name="vendor_expressiveos" remote="expressiveos" revision="f0411857ef8d05cac075cbe4468ed990af76c826" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="vendor/extras" name="vendor_extras" remote="expressiveos" revision="2f856885ecc0cd201d6845deba62abf34c09c28f" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="vendor/gms" name="vendor_gms" remote="expressiveos" revision="8bb1d94a303415989cf4bf128edcfce32aeb795d" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" clone-depth="1" />
   <project path="vendor/gms-mosey" name="vendor_gms-mosey" remote="expressiveos" revision="931dc880a8f4c76b6a55a37cf53b7fd449094e24" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
