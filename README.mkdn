@@ -1,0 +1,22 @@
+# ExpressiveOS 2.0 (Pure AOSP)
+
+The manifest of ExpressiveOS 2.0, based directly on Google AOSP `android-17.0.0_r1` (`CP2A`) with monthly Android Security Bulletin (ASB) patches managed via `sources/update-aosp.py`. Every `<project>` in `default.xml` is pinned to an immutable 40-hex commit SHA:
+
+- **AOSP projects** (`remote="aosp"`, `https://android.googlesource.com`) are pinned to their exact `android-17.0.0_r1` commit SHAs.
+- **ExpressiveOS projects** (`remote="expressiveos"`, `https://github.com/ExpressiveOS`) track branch `expressiveos-2.0`: clean AOSP `android-17.0.0_r1` rebases, ASB-patched AOSP forks, ExpressiveOS apps/vendor/HALs, and all 6 Pixel device trees (`cheetah`, `husky`, `kodiak`, `grizzly`, `cubs`, `yogi`).
+- **Prebuilt vendor & factory kernel images**: `vendor_gms` and `vendor_google_cheetah` sync via Git LFS; `vendor/google/husky`, Pixel 11 vendor blobs, and `vendor/google/<device>-kernel-images` are staged on the build server by the kit.
+
+## Initialize local repository
+```bash
+repo init -u https://github.com/ExpressiveOS/manifest -b expressiveos-2.0 --git-lfs
+```
+
+## Sync
+```bash
+repo sync -c -j4 --no-clone-bundle --no-tags
+```
+
+## Build & Monthly ASB Updates
+ExpressiveOS 2.0 is built and updated with `expressiveos-cheetah` (`eos-2.0` in [Denson9874-Device-Central](https://github.com/denson9874/Denson9874-Device-Central)):
+- `setup.sh` / `prepare.sh` / `tools/eos-images.sh` configure and build `eos_<device>-cp2a-user` (`cheetah`, `husky`, `kodiak`, `grizzly`, `cubs`, `yogi`) using Wild Kernel GKI + stock Google factory modules.
+- `sources/update-aosp.py` (`check`, `plan`, `create-repos`, `push`, `verify`, `lint`) applies monthly `android-security-17.0.0_r*` security bulletins cleanly without touching branch `expressiveos` (1.x).
