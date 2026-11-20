@@ -14,7 +14,7 @@
   <project path="build/blueprint" name="platform/build/blueprint" remote="aosp" revision="7f2058de8155b05ea3c3f8317d33bfe732cacf8b" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk,tradefed" />
   <project path="build/pesto" name="platform/build/pesto" remote="aosp" revision="d853447257086aec2c8ade7056ec69e4ac706e14" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project path="build/release" name="platform/build/release" remote="aosp" revision="c85f4aebe46714235599a9bd6430a0fe30c6e8d5" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk,tradefed,sysui-studio" />
-  <project path="build/soong" name="build_soong" remote="expressiveos" revision="61311599f6d681759ee29dbecd43f0c266528215" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk,tradefed,sysui-studio">
+  <project path="build/soong" name="build_soong" remote="expressiveos" revision="17efdc83e3f782936fdb7a6344a5b17fc9c2f667" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk,tradefed,sysui-studio">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
