@@ -612,7 +612,7 @@
   <project path="external/zucchini" name="platform/external/zucchini" remote="aosp" revision="e256025d9d9c906caba814fd7b99a311ac8b8ec1" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="d89286b7d32c7860f796e95380b22e99618d00c1" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project path="frameworks/av" name="frameworks_av" remote="expressiveos" revision="ccf99d1495efc8e6cbb7c5c0b4e19d28fc204f6e" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk,sysui-studio" />
-  <project path="frameworks/base" name="frameworks_base" remote="expressiveos" revision="4b804fbfd8ddd1b77179a33230ee9fa5fdd9ac09" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <project path="frameworks/base" name="frameworks_base" remote="expressiveos" revision="4425624ec70be7cf7095ea0447df627b8370ee77" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="943016fade3dbbb725c363d0dc60a6e962bd88e5" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" remote="aosp" revision="22f2506e585270da53cb910f6fda92395f6550c1" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" remote="aosp" revision="4080160ebeff7fef5d5ce7062b571830c8cc937e" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
@@ -1104,13 +1104,13 @@
   </project>
   <project path="device/google/cubs" name="device_google_cubs" remote="expressiveos" revision="3e35d2539168cd8ab853a6fe35750611e4d37d99" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="device/google/grizzly" name="device_google_grizzly" remote="expressiveos" revision="fc70e7c227d59e87d9f11f7e5d88e892c689fc10" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
-  <project path="device/google/gs201" name="device_google_gs201" remote="expressiveos" revision="b0b18ef1123c82ba5a4d8d98c7016a2a128316b5" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
+  <project path="device/google/gs201" name="device_google_gs201" remote="expressiveos" revision="3d90361690a96a272f83075b9a50b59dd7f4873e" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="device/google/husky" name="device_google_husky" remote="expressiveos" revision="828b7b515f51e1a1129ca1b853b8417155076eba" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="device/google/kodiak" name="device_google_kodiak" remote="expressiveos" revision="3e6f069dac0b633c050175fc7d5de6cc2f12561c" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="device/google/pantah" name="device_google_pantah" remote="expressiveos" revision="5f8020cd6ce69b106d4266543f551129cef701f9" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="device/google/shusky" name="device_google_shusky" remote="expressiveos" revision="28966ea515ee6a70c095c34ec15ef2c2b19091d6" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="device/google/yogi" name="device_google_yogi" remote="expressiveos" revision="57fdb88c51280c76845d6db3652c369b17396257" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
-  <project path="device/google/zuma" name="device_google_zuma" remote="expressiveos" revision="698c7e64a96b0f76d2fb075ab48c3be9ecbe4741" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
+  <project path="device/google/zuma" name="device_google_zuma" remote="expressiveos" revision="1a30679adcce2f5d392ad2ba663d1613853b73a2" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="expressiveos" revision="0165827a1c0c7076faa236fb01dcd5f877595ecf" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="external/json-c" name="external_json-c" remote="expressiveos" revision="53b84fa96d174d7debafa3ac560dc36271872637" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="external/steam-audio" name="external_steam-audio" remote="expressiveos" revision="1540a227e3d34d84734e3aebddb655753170778c" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
