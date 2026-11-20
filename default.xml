@@ -1115,6 +1115,7 @@
   <project path="device/google/yogi" name="device_google_yogi" remote="expressiveos" revision="57fdb88c51280c76845d6db3652c369b17396257" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="device/google/zuma" name="device_google_zuma" remote="expressiveos" revision="698c7e64a96b0f76d2fb075ab48c3be9ecbe4741" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="expressiveos" revision="0165827a1c0c7076faa236fb01dcd5f877595ecf" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
+  <project path="external/json-c" name="external_json-c" remote="expressiveos" revision="53b84fa96d174d7debafa3ac560dc36271872637" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="external/steam-audio" name="external_steam-audio" remote="expressiveos" revision="1540a227e3d34d84734e3aebddb655753170778c" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="hardware/expressiveos/interfaces" name="hardware_expressiveos_interfaces" remote="expressiveos" revision="f5e166db34d1bc961527e9423f70db3d27ca890b" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="expressiveos" revision="b49628e72a9d64ea563648490ae6f07bac3cf764" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
