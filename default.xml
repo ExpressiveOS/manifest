@@ -19,7 +19,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="art" name="art" remote="expressiveos" revision="ba06313fed3354ebe3b197bec0212a36a00e88c7" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk" />
-  <project path="bionic" name="bionic" remote="expressiveos" revision="fa3ff1bcc3efef4e5acbd9007acf377cee0eeda9" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk" />
+  <project path="bionic" name="bionic" remote="expressiveos" revision="2e55e32c836f9649a8b5d895152c8081cce39ad8" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk" />
   <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" remote="aosp" revision="d9145a6f8e393e5925d43c402da98da5dd6dff76" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk-cw,pdk-arsp-ag-sot,pdk-arsp-common" />
   <project path="bootable/recovery" name="bootable_recovery" remote="expressiveos" revision="aeab19018712799c28cac9cfbfd69487b7c676e4" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" remote="aosp" revision="b8c945e55a2e47eaa698f5f916c004bd83bcb811" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="vts,pdk" />
@@ -612,7 +612,7 @@
   <project path="external/zucchini" name="platform/external/zucchini" remote="aosp" revision="e256025d9d9c906caba814fd7b99a311ac8b8ec1" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="d89286b7d32c7860f796e95380b22e99618d00c1" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project path="frameworks/av" name="frameworks_av" remote="expressiveos" revision="ccf99d1495efc8e6cbb7c5c0b4e19d28fc204f6e" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk,sysui-studio" />
-  <project path="frameworks/base" name="frameworks_base" remote="expressiveos" revision="7b5895f5d0c6c5e236d92d3c939c9318deab3e49" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <project path="frameworks/base" name="frameworks_base" remote="expressiveos" revision="127d8acfd477f477093bb76413c2c8143a857643" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="943016fade3dbbb725c363d0dc60a6e962bd88e5" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" remote="aosp" revision="22f2506e585270da53cb910f6fda92395f6550c1" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" remote="aosp" revision="4080160ebeff7fef5d5ce7062b571830c8cc937e" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
@@ -945,7 +945,7 @@
   <project path="system/fs/fs_mgr" name="system_fs_fs_mgr" remote="expressiveos" revision="b9d356670dbdac0c5293d7dc390f0168b5fec02e" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk" />
   <project path="system/chre" name="platform/system/chre" remote="aosp" revision="17b4a35a8c2b9f27e7f1b382b7d714aced928ce4" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" remote="aosp" revision="fefad78738af9d9753bb0acbafcf458691f8627c" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
-  <project path="system/core" name="system_core" remote="expressiveos" revision="65e8bf1be1aa534fb6c4223c6b33a12c4bcfef17" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk" />
+  <project path="system/core" name="system_core" remote="expressiveos" revision="84c1f6c22dee27e589707dcac48f099279af2372" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk" />
   <project path="system/dmesgd" name="platform/system/dmesgd" remote="aosp" revision="635120841f515b63fe0ab0451ac9b17fb7d8cca6" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" remote="aosp" revision="1289e9b3f282909eec6e80414e14dcc207bda439" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" remote="aosp" revision="5b5e75b5bda9fccbc3132e9624cb25286babdaac" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
