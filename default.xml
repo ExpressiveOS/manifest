@@ -1121,7 +1121,7 @@
   <project path="packages/apps/BtHelper" name="packages_apps_BtHelper" remote="expressiveos" revision="e42a10e0cd4be955ae18a237a4e206a65f1cb8b8" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="packages/apps/ColumbusService" name="packages_apps_ColumbusService" remote="expressiveos" revision="b8167ad9c86adebdf54fe3bba0e03f37ee112ed6" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="packages/apps/EvoEgg" name="packages_apps_EvoEgg" remote="expressiveos" revision="1a1320163e3c7184f29a3207e29f83814e4daec1" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
-  <project path="packages/apps/Evolver" name="packages_apps_Evolver" remote="expressiveos" revision="a126f88ece135d8305654530aea7de4493e1ee46" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
+  <project path="packages/apps/Evolver" name="packages_apps_Evolver" remote="expressiveos" revision="768b7ed5c9b02046714a3af615721420403b760d" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="expressiveos" revision="d5bc9c70b4a2d2ad914bf663a16b01f116e56150" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="packages/apps/LMOFreeform" name="packages_apps_LMOFreeform" remote="expressiveos" revision="8f344e3bae1bffec9ca8fd14586ccbc27a630f4a" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="expressiveos" revision="15432cf870458b15259312b6e4c27c3e194a9939" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
