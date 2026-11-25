@@ -273,9 +273,9 @@
   <project name="LineageOS/scripts" path="lineage/scripts" revision="abe932a7a4848f2783d9385d816fc14221287944" upstream="main" dest-branch="main" groups="tools" />
   <project name="packages_apps_BtHelper" path="packages/apps/BtHelper" remote="expressiveos" revision="8c725ab99069bd7662c043d3b122ec51b731fb32" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="art" remote="expressiveos" revision="2ae0ac223eccfbdebc5ec5a4bb2795d58c13326d" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
-  <project name="bionic" remote="expressiveos" revision="5fd86ddc53a3a411a05edce40b8f9c4f369591a6" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
+  <project name="bionic" remote="expressiveos" revision="f3b815b2fe419b1b06b944eab3918147ad9e33dc" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
   <project name="bootable_recovery" path="bootable/recovery" remote="expressiveos" revision="d1ddc4afb2506ae3b5dfa0b35c6ae78d50277d19" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
-  <project name="build" path="build/make" remote="expressiveos" revision="c60bdedfc59a8efe38977665d2989ccc028e168f" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk,sysui-studio">
+  <project name="build" path="build/make" remote="expressiveos" revision="59cf0c20a3d8ea364f7cc8ca3507f60f9a4e2e29" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk,sysui-studio">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -299,14 +299,14 @@
   <project name="device/google/sdv_display_safety" remote="aosp" revision="0971a46741bd2931c8c506e0afe950348af7c1d4" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk,swcar" clone-depth="1" />
   <project name="device/google/trout" remote="aosp" revision="26ebd2c5706f28ec3a925b3b7f133a7b575abded" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="device,pdk" clone-depth="1" />
   <project name="device/sample" remote="aosp" revision="035858697891c2e1079255ef33656663618037a1" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
-  <project name="device_evolution_sepolicy" path="device/lineage/sepolicy" remote="expressiveos" revision="d7202258eaaef4a8eaaedd6bd5126238e0581094" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project name="device_evolution_sepolicy" path="device/lineage/sepolicy" remote="expressiveos" revision="fc745be7e15a1e1478ca82610d8de1d86bbaea60" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="external_FadingEdgeLayout" path="external/FadingEdgeLayout" remote="expressiveos" revision="0165827a1c0c7076faa236fb01dcd5f877595ecf" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="external_bouncycastle" path="external/bouncycastle" remote="expressiveos" revision="56e5dac751581c7bd6dbe363d7ba3f8e8862c5bf" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="external_pffft" path="external/pffft" remote="expressiveos" revision="8af7b29aa6cab91efcbd6d4bc417e82964747a68" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
   <project name="external_piex" path="external/piex" remote="expressiveos" revision="f036cb56369c876cd9b03b5acfa60d2511837b17" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
   <project name="external_steam-audio" path="external/steam-audio" remote="expressiveos" revision="1540a227e3d34d84734e3aebddb655753170778c" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="frameworks_av" path="frameworks/av" remote="expressiveos" revision="798023d417a8edf9fd37653194872d4fcaf6af24" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk,sysui-studio" />
-  <project name="frameworks_base" path="frameworks/base" remote="expressiveos" revision="0a2805a5eac001254424f8db4b24ff434ec3313b" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <project name="frameworks_base" path="frameworks/base" remote="expressiveos" revision="d7bacb0d276968bff51b3633d7277eb24707a516" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <project name="frameworks_libs_systemui" path="frameworks/libs/systemui" remote="expressiveos" revision="a545beb37be87a7feccbbcc76bd894d5cff3d289" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <project name="frameworks_native" path="frameworks/native" remote="expressiveos" revision="5b6c4d5bcd5dcea470bedb8047887b46b2a54e9b" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
   <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="expressiveos" revision="240b2b56792357bb92153c842949e1e0433c41f8" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk,sysui-studio" />
@@ -343,14 +343,14 @@
   <project name="packages_apps_AppLocker" path="packages/apps/AppLocker" remote="expressiveos" revision="065f2f5553bcf297fe503b28ef15433447df92a5" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_ColumbusService" path="packages/apps/ColumbusService" remote="expressiveos" revision="b8167ad9c86adebdf54fe3bba0e03f37ee112ed6" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_EvoEgg" path="packages/apps/EvoEgg" remote="expressiveos" revision="1a1320163e3c7184f29a3207e29f83814e4daec1" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project name="packages_apps_Evolver" path="packages/apps/Evolver" remote="expressiveos" revision="255e745539c3586ceb9530d7fcfa851bdca03a0e" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project name="packages_apps_Evolver" path="packages/apps/Evolver" remote="expressiveos" revision="e6ef0c82880230dc12031a608d46b01df54b8fcd" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_FaceUnlock" path="packages/apps/FaceUnlock" remote="expressiveos" revision="817e02a974215b100915814267fabbfdb5961f88" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_GameSpace" path="packages/apps/GameSpace" remote="expressiveos" revision="f046de4d28415ce074f85758c44d74764cd9a9e6" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_LMOFreeform" path="packages/apps/LMOFreeform" remote="expressiveos" revision="8f344e3bae1bffec9ca8fd14586ccbc27a630f4a" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_LineageParts" path="packages/apps/LineageParts" remote="expressiveos" revision="5d3089d20591c64d7ed1c7dfa4ed93e336219bca" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="expressiveos" revision="15432cf870458b15259312b6e4c27c3e194a9939" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_Sandbox" path="packages/apps/Sandbox" remote="expressiveos" revision="6783180450e17a714b4240897f9346c20e47e825" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="expressiveos" revision="5e08d23a8ffa3f4218e8d20203888d2482bdb4bc" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk-cw-tvc,pdk-fs,sysui-studio" />
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="expressiveos" revision="14a2efc737bf2a74c54508214bf751e17e6ea646" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk-cw-tvc,pdk-fs,sysui-studio" />
   <project name="packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="expressiveos" revision="09b14d2e89cacf50162b2ff3c0497f5637376065" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="packages_apps_Stk" path="packages/apps/Stk" remote="expressiveos" revision="0c7c29561ad125d6553b19f05029a429fac4eaff" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="apps_stk,pdk-fs" />
   <project name="packages_apps_SystemUIClocks" path="packages/apps/SystemUIClocks" remote="expressiveos" revision="07e660769ff8056edaa205e9f8aeeab21ac79a31" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
@@ -868,7 +868,7 @@
   <project name="platform/external/tinyxml" path="external/tinyxml" remote="aosp" revision="30b01f5b6ece6c5204d46f6b2ea90745dbc69826" upstream="refs/tags/android-11.0.0_r46" dest-branch="refs/tags/android-11.0.0_r46" groups="pdk" />
   <project name="platform/external/tinyxml2" path="external/tinyxml2" remote="aosp" revision="33ba115074c80a720826efffab1937d5b355c3b8" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project name="platform/external/toolchain-utils" path="external/toolchain-utils" remote="aosp" revision="13b0aca13b9a3cd116199b0e7643251349f6de1a" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk-arsp-ag-sot,pdk-arsp-common" />
-  <project name="platform/external/toybox" path="external/toybox" remote="aosp" revision="962f9d0777975da7dd508bbb8db9a09715b1f692" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
+  <project name="external_toybox" path="external/toybox" remote="expressiveos" revision="01aab159ab9748e5bc4a69bec7e96d81210f2d15" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
   <project name="platform/external/tpm2-tss" path="external/tpm2-tss" remote="aosp" revision="3b8b4cf06fdcfbd4c2d091ff74c77f41e97c289e" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project name="platform/external/trace-cmd" path="external/trace-cmd" remote="aosp" revision="fcf35f74fefe45d9b7d0a3a0029a38bd79960ca6" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project name="LineageOS/android_external_tremolo" path="external/tremolo" revision="04f93e8026edaafcd11eff36fba76cb9cd846f16" upstream="refs/heads/lineage-24.0" dest-branch="refs/heads/lineage-24.0" groups="pdk" />
@@ -1247,8 +1247,8 @@
   <project name="platform/tools/tradefederation/prebuilts" path="tools/tradefederation/prebuilts" remote="aosp" revision="cff1e97158caa95de4919a38abf6f3ac10409f37" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk,tradefed" clone-depth="1" />
   <project name="platform/tools/treble" path="tools/treble" remote="aosp" revision="07f855c5b283a77b04617322aea8990d9d3cdf52" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk,tools" />
   <project name="platform/tools/trebuchet" path="tools/trebuchet" remote="aosp" revision="fb475730e55c847362a51b1978b16a633267deb9" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="cts,pdk,pdk-cw-fs,pdk-fs,tools" />
-  <project name="system_core" path="system/core" remote="expressiveos" revision="aa40d58c3adf543200f381044e752281dc61b088" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
-  <project name="system_fs_fs_mgr" path="system/fs/fs_mgr" remote="expressiveos" revision="9a12350c20a8f408f18788b0f87ddc1651623b90" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
+  <project name="system_core" path="system/core" remote="expressiveos" revision="f620ad1b0e47b1662dc345893a689055e8a90f5f" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
+  <project name="system_fs_fs_mgr" path="system/fs/fs_mgr" remote="expressiveos" revision="8b55f2c4c0fff0554a7f400c05e8220b6dfb4905" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
   <project name="system_libhwbinder" path="system/libhwbinder" remote="expressiveos" revision="3a07e34e48a56b2c6ba0ae80090be3ec9c77bc19" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
   <project name="system_media" path="system/media" remote="expressiveos" revision="b141a77d249bc0fcec5f48d5d03df0c719b46f16" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
   <project name="system_memory_libmeminfo" path="system/memory/libmeminfo" remote="expressiveos" revision="bf930d72e5fcab38ac143a800d1de39ed604a8cc" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
@@ -1289,7 +1289,7 @@
   <project name="trusty/vendor/google/aosp" remote="aosp" revision="93e3ca36bc59e5d357b226e4e5254f8e478213f2" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk,trusty">
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
-  <project name="vendor_evolution" path="vendor/lineage" remote="expressiveos" revision="d79232cef181b1df3aca1a602c22c438cbb5c445" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project name="vendor_evolution" path="vendor/lineage" remote="expressiveos" revision="93c1b7229d3e19419c1590d0a2eeaaaf7b28c6cb" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_extras" path="vendor/extras" remote="expressiveos" revision="9bd8fbeb1a0550eccc267034176c2b7849774b24" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="vendor_gms" path="vendor/gms" remote="expressiveos" revision="a7b98fb3d6b0064b27174ed68a9b1b56a6ac4015" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" clone-depth="1" />
   <project name="vendor_gms-mosey" path="vendor/gms-mosey" remote="expressiveos" revision="931dc880a8f4c76b6a55a37cf53b7fd449094e24" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
@@ -1306,8 +1306,8 @@
   <project path="device/google/shusky-kernels" name="android_device_google_shusky-kernels" remote="lineageos" revision="cd4a90f656c18677b6171cef35c5b5573ed537ca" upstream="lineage-24.0" />
   <project path="device/google/zuma" name="android_device_google_zuma" remote="lineageos" revision="9eeeb27bf309b1d3bd5e714e1ce9c22d35babfbe" />
   <project path="vendor/google/husky" name="TheMuppets/proprietary_vendor_google_husky" remote="github" revision="f80d252de3e1fccdf2f58bac4e02b4dac8385083" />
-  <project path="device/google/kodiak" name="device_google_kodiak" remote="expressiveos" revision="ff60275a1866613c47bdf4a217a6a0e5c8ef3807" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project path="device/google/grizzly" name="device_google_grizzly" remote="expressiveos" revision="5520ec23925c48cf9f95be06941de198e5bef31a" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project path="device/google/cubs" name="device_google_cubs" remote="expressiveos" revision="9291d969478c9455dd54574f298e29b0938e1be5" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
-  <project path="device/google/yogi" name="device_google_yogi" remote="expressiveos" revision="3d515e4e98217d5378baa7ddde63a737b5301daa" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project path="device/google/kodiak" name="device_google_kodiak" remote="expressiveos" revision="a184c26593ce10da8511a1af17ca4f83c628f737" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project path="device/google/grizzly" name="device_google_grizzly" remote="expressiveos" revision="c87c3354e1f0c8a77a1a9a8867205857870b251b" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project path="device/google/cubs" name="device_google_cubs" remote="expressiveos" revision="acb76638fd41d33b4d1c48dc80244b3f6854652f" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
+  <project path="device/google/yogi" name="device_google_yogi" remote="expressiveos" revision="f54883a81d1a87dabcd6120d7c028c76d50bdcf3" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
 </manifest>
