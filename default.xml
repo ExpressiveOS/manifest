@@ -273,7 +273,7 @@
   <project name="LineageOS/scripts" path="lineage/scripts" revision="abe932a7a4848f2783d9385d816fc14221287944" upstream="main" dest-branch="main" groups="tools" />
   <project name="packages_apps_BtHelper" path="packages/apps/BtHelper" remote="expressiveos" revision="8c725ab99069bd7662c043d3b122ec51b731fb32" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="art" remote="expressiveos" revision="2ae0ac223eccfbdebc5ec5a4bb2795d58c13326d" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
-  <project name="bionic" remote="expressiveos" revision="f3b815b2fe419b1b06b944eab3918147ad9e33dc" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
+  <project name="bionic" remote="expressiveos" revision="a62fd1a0b296fb20081a632941b213f90c97e4f6" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
   <project name="bootable_recovery" path="bootable/recovery" remote="expressiveos" revision="d1ddc4afb2506ae3b5dfa0b35c6ae78d50277d19" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
   <project name="build" path="build/make" remote="expressiveos" revision="59cf0c20a3d8ea364f7cc8ca3507f60f9a4e2e29" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk,sysui-studio">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -306,7 +306,7 @@
   <project name="external_piex" path="external/piex" remote="expressiveos" revision="f036cb56369c876cd9b03b5acfa60d2511837b17" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
   <project name="external_steam-audio" path="external/steam-audio" remote="expressiveos" revision="1540a227e3d34d84734e3aebddb655753170778c" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" />
   <project name="frameworks_av" path="frameworks/av" remote="expressiveos" revision="798023d417a8edf9fd37653194872d4fcaf6af24" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk,sysui-studio" />
-  <project name="frameworks_base" path="frameworks/base" remote="expressiveos" revision="d7bacb0d276968bff51b3633d7277eb24707a516" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <project name="frameworks_base" path="frameworks/base" remote="expressiveos" revision="0b9ca9b7a77bdfee55b7db752f0f6c30e470aa69" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <project name="frameworks_libs_systemui" path="frameworks/libs/systemui" remote="expressiveos" revision="a545beb37be87a7feccbbcc76bd894d5cff3d289" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <project name="frameworks_native" path="frameworks/native" remote="expressiveos" revision="5b6c4d5bcd5dcea470bedb8047887b46b2a54e9b" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk" />
   <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="expressiveos" revision="240b2b56792357bb92153c842949e1e0433c41f8" upstream="refs/heads/expressiveos" dest-branch="refs/heads/expressiveos" groups="pdk,sysui-studio" />
