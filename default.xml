@@ -612,7 +612,7 @@
   <project path="external/zucchini" name="platform/external/zucchini" remote="aosp" revision="e256025d9d9c906caba814fd7b99a311ac8b8ec1" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="d89286b7d32c7860f796e95380b22e99618d00c1" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project path="frameworks/av" name="frameworks_av" remote="expressiveos" revision="ccf99d1495efc8e6cbb7c5c0b4e19d28fc204f6e" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk,sysui-studio" />
-  <project path="frameworks/base" name="frameworks_base" remote="expressiveos" revision="127d8acfd477f477093bb76413c2c8143a857643" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <project path="frameworks/base" name="frameworks_base" remote="expressiveos" revision="8eeceb651ac917c140a0bff5511d7ae13e1ac302" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="943016fade3dbbb725c363d0dc60a6e962bd88e5" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" remote="aosp" revision="22f2506e585270da53cb910f6fda92395f6550c1" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" remote="aosp" revision="4080160ebeff7fef5d5ce7062b571830c8cc937e" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk" />
@@ -1121,7 +1121,7 @@
   <project path="packages/apps/BtHelper" name="packages_apps_BtHelper" remote="expressiveos" revision="e42a10e0cd4be955ae18a237a4e206a65f1cb8b8" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="packages/apps/ColumbusService" name="packages_apps_ColumbusService" remote="expressiveos" revision="b8167ad9c86adebdf54fe3bba0e03f37ee112ed6" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="packages/apps/EvoEgg" name="packages_apps_EvoEgg" remote="expressiveos" revision="1a1320163e3c7184f29a3207e29f83814e4daec1" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
-  <project path="packages/apps/Evolver" name="packages_apps_Evolver" remote="expressiveos" revision="768b7ed5c9b02046714a3af615721420403b760d" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
+  <project path="packages/apps/Evolver" name="packages_apps_Evolver" remote="expressiveos" revision="48fd55b865c8497128ddd62293926cd813edae6d" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="expressiveos" revision="d5bc9c70b4a2d2ad914bf663a16b01f116e56150" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="packages/apps/LMOFreeform" name="packages_apps_LMOFreeform" remote="expressiveos" revision="8f344e3bae1bffec9ca8fd14586ccbc27a630f4a" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="expressiveos" revision="15432cf870458b15259312b6e4c27c3e194a9939" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
@@ -1132,7 +1132,7 @@
   <project path="packages/resources/apps" name="packages_resources_apps" remote="expressiveos" revision="d8d8abd20e5ca1e4bdd21bbe0f1c47f05c7d5630" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="packages/services/AxQuickLook" name="packages_services_AxQuickLook" remote="expressiveos" revision="8499db252757d86d348a406eaae1f325ba4926f0" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="expressiveos" revision="e78d066a9b5f21a52f7ee0430b26b29a85423c9e" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
-  <project path="vendor/expressiveos" name="vendor_expressiveos" remote="expressiveos" revision="802ef4c6eea3577dff92e6c2fc46bf4f7ebd5f11" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
+  <project path="vendor/expressiveos" name="vendor_expressiveos" remote="expressiveos" revision="eafce6b902ca2ff10683c6ad8ea74b4611e8b18d" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="vendor/extras" name="vendor_extras" remote="expressiveos" revision="99430fe07c3da4f1e4542031d923f421b79a15ed" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="vendor/gms" name="vendor_gms" remote="expressiveos" revision="374c9aa9c8a43fc92c56544c76d6935a4a7bdf33" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" clone-depth="1" />
   <project path="vendor/gms-mosey" name="vendor_gms-mosey" remote="expressiveos" revision="931dc880a8f4c76b6a55a37cf53b7fd449094e24" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
