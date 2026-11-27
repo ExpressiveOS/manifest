@@ -1134,11 +1134,11 @@
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="expressiveos" revision="e78d066a9b5f21a52f7ee0430b26b29a85423c9e" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="vendor/expressiveos" name="vendor_expressiveos" remote="expressiveos" revision="eafce6b902ca2ff10683c6ad8ea74b4611e8b18d" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="vendor/extras" name="vendor_extras" remote="expressiveos" revision="99430fe07c3da4f1e4542031d923f421b79a15ed" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
-  <project path="vendor/gms" name="vendor_gms" remote="expressiveos" revision="374c9aa9c8a43fc92c56544c76d6935a4a7bdf33" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" clone-depth="1" />
+  <project path="vendor/gms" name="vendor_gms" remote="expressiveos" revision="d6eaddad54898dc5c24e1e88c929856e8df04a9c" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" clone-depth="1" />
   <project path="vendor/gms-mosey" name="vendor_gms-mosey" remote="expressiveos" revision="931dc880a8f4c76b6a55a37cf53b7fd449094e24" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="vendor/google/cheetah" name="vendor_google_cheetah" remote="expressiveos" revision="a42695f867239da91c3e2bb220655a9f2c7c7316" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="vendor/google/husky" name="vendor_google_husky" remote="expressiveos" revision="f586d7f11e4dd5c2e19357389b514efa71a57a8d" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
-  <project path="vendor/pixel-style" name="vendor_pixel-style" remote="expressiveos" revision="e5203f6f54f4be6f665119ac58d73e4880240a12" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
+  <project path="vendor/pixel-style" name="vendor_pixel-style" remote="expressiveos" revision="2a4224136566477973062c22373788eb85f0de00" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="vendor/themes" name="vendor_themes" remote="expressiveos" revision="8bde24c6b6194156d4ef808046ed76b9a864b271" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="vendor/unbundled_google/packages/SettingsGoogle" name="vendor_packages_SettingsGoogle" remote="expressiveos" revision="dea08ba49c18d217f63b5e2faa150c2632c18437" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
   <project path="vendor/unbundled_google/packages/SystemUIGoogle" name="vendor_packages_SystemUIGoogle" remote="expressiveos" revision="6fc14ed933c95da5a12f76a56ed48b11aaaafec1" upstream="expressiveos-2.0" dest-branch="expressiveos-2.0" />
