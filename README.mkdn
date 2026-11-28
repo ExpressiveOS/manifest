@@ -3,8 +3,10 @@
 The manifest of ExpressiveOS 2.0, based directly on Google AOSP `android-17.0.0_r1` (`CP2A`) with monthly Android Security Bulletin (ASB) patches managed via `sources/update-aosp.py`. Every `<project>` in `default.xml` is pinned to an immutable 40-hex commit SHA:
 
 - **AOSP projects** (`remote="aosp"`, `https://android.googlesource.com`) are pinned to their exact `android-17.0.0_r1` commit SHAs.
-- **ExpressiveOS projects** (`remote="expressiveos"`, `https://github.com/ExpressiveOS`) track branch `expressiveos-2.0`: clean AOSP `android-17.0.0_r1` rebases, ASB-patched AOSP forks, ExpressiveOS apps/vendor/HALs, and all 6 Pixel device trees (`cheetah`, `husky`, `kodiak`, `grizzly`, `cubs`, `yogi`).
-- **Prebuilt vendor & factory kernel images**: `vendor_gms` and `vendor_google_cheetah` sync via Git LFS; `vendor/google/husky`, Pixel 11 vendor blobs, and `vendor/google/<device>-kernel-images` are staged on the build server by the kit.
+- **ExpressiveOS core projects** (`remote="expressiveos"`, `https://github.com/ExpressiveOS`) track branch `expressiveos-2.0`: ExpressiveOS-customized frameworks, system daemons, apps, vendor/GMS, and HALs.
+- **ExpressiveOS ASB forks** (`remote="expressiveos-asb"`, `https://github.com/ExpressiveOS-ASB`) carry pure upstream AOSP monthly Android Security Bulletin (ASB) cherry-picks.
+- **ExpressiveOS device projects** (`remote="expressiveos-devices"`, `https://github.com/ExpressiveOS-Devices`) hold the 6 Pixel device trees (`cheetah`, `husky`, `kodiak`, `grizzly`, `cubs`, `yogi`), Pixel HALs/sepolicy, and Git LFS vendor repos (`vendor_google_cheetah`, `vendor_google_husky`).
+- **Prebuilt vendor & factory kernel images**: `vendor_gms`, `vendor_google_cheetah`, and `vendor_google_husky` sync Git LFS objects via `ExpressiveOS/blobs`; Pixel 11 vendor blobs and `vendor/google/<device>-kernel-images` are staged on the build server by the kit.
 
 ## Initialize local repository
 ```bash
